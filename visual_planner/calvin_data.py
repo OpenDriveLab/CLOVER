@@ -14,22 +14,16 @@ from dataclasses import dataclass
 from multiprocessing import Value
 import zipfile
 
-import braceexpand
+
 import torch
 import torchvision
-import webdataset as wds
+
 import numpy as np
 from PIL import Image
 from torch.utils.data import DataLoader, IterableDataset, get_worker_info, Dataset
 from torch.utils.data.distributed import DistributedSampler
 from torchvideotransforms import video_transforms, volume_transforms
-from webdataset.filters import _shuffle
-from webdataset.tariterators import (
-    base_plus_ext,
-    tar_file_expander,
-    url_opener,
-    valid_sample,
-)
+
 from torchvision import transforms as transforms_
 import numpy as np
 from omegaconf import DictConfig
