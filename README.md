@@ -5,7 +5,7 @@
 <img src="assets/clover_teaser.png" width="1000px" >
 </p>
 </div>
->
+
 > [Qingwen Bu](https://scholar.google.com/citations?user=-JCRysgAAAAJ&hl=zh-CN&oi=ao), [Jia Zeng](https://scholar.google.com/citations?hl=zh-CN&user=kYrUfMoAAAAJ), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), Yanchao Yang, Guyue Zhou, Junchi Yan, Ping Luo, Heming Cui, Yi Ma and [Hongyang Li](https://lihongyang.info/)
 >
 
@@ -35,9 +35,9 @@ This closed-loop mechanism enables achieving the desired states accurately and r
 </p>
 </div>
 
-## :loudspeaker: News
+<!-- ## :loudspeaker: News
 
-- **[2024/09/xx]** We released our paper on arXiv.
+- **[2024/09/xx]** We released our paper on arXiv. -->
 
 ## :pushpin: TODO list
 
