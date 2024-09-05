@@ -1,5 +1,3 @@
-export LD_LIBRARY_PATH=/home/pai/envs/openvla/lib/python3.10/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH
-
 accelerate launch --config_file accelerate_cfg.yaml train.py \
     --learning_rate 1e-4 \
     --train_num_steps 300000 \
@@ -12,3 +10,4 @@ accelerate launch --config_file accelerate_cfg.yaml train.py \
     --sample_steps 10 \
     --with_depth \
     --flow_reg \
+    --results_folder *path_to_save_ckpts*
