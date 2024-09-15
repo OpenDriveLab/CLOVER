@@ -43,9 +43,13 @@ Full code and checkpoints release is coming soon. Please stay tuned.🦾
 ## :pushpin: TODO list
 
 - [x] Training script for visual planner
-- [ ] Training script for feedback-driven policy
-- [ ] Evaluation codes on CALVIN
-- [ ] Checkpoints release
+- [ ] Checkpoints release (*Scheduled Release Date*: **Mid-October, 202
+4**)
+- [ ] Evaluation codes on CALVIN (*Scheduled Release Date*: **Mid-Octob
+er, 2024**)
+- [ ] Policy training codes on CALVIN (*Estimated Release Period*: **Nove
+mber, 2024**)
+
 
 
 ## Getting started <a name="installation"></a>
