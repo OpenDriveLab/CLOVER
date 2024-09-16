@@ -7,8 +7,10 @@
 </div>
 
 > [Qingwen Bu](https://scholar.google.com/citations?user=-JCRysgAAAAJ&hl=zh-CN&oi=ao), [Jia Zeng](https://scholar.google.com/citations?hl=zh-CN&user=kYrUfMoAAAAJ), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), Yanchao Yang, Guyue Zhou, Junchi Yan, Ping Luo, Heming Cui, Yi Ma and Hongyang Li
->
-:mailbox_with_mail: If you have any questions, please feel free to contact: *Qingwen Bu* ( qwbu01@sjtu.edu.cn )
+
+> 📜 Preprint: <a href="https://arxiv.org/abs/2409.09016"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+
+> :mailbox_with_mail: If you have any questions, please feel free to contact: *Qingwen Bu* ( qwbu01@sjtu.edu.cn )
 
 Full code and checkpoints release is coming soon. Please stay tuned.🦾
 
@@ -53,7 +55,7 @@ Full code and checkpoints release is coming soon. Please stay tuned.🦾
 
 Our training are conducted with **PyTorch 1.13.1**, **CUDA 11.7**, **Ubuntu 22.04**, and **NVIDIA Tesla A100 (80 GB)**. The closed-loop evaluation on CALVIN is run on a system with **NVIDIA RTX 3090**.
 
-We also did further testing with **PyTorch 2.2.0 + CUDA 11.8**, and the training also goes fine.
+We did further testing with **PyTorch 2.2.0 + CUDA 11.8**, and the training also goes fine.
 
 1. (Optional) We use conda to manage the environment.
 
