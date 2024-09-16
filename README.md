@@ -34,13 +34,17 @@ Full code and checkpoints release is coming soon. Please stay tuned.🦾
 * This closed-loop mechanism enables achieving the desired states accurately and reliably, thereby facilitating the execution of long-term tasks:
 <div id="top" align="center">
 <p align="center">
-<img src="assets/long-horizon-task.gif" width="800px" >
+<td><video src="https://github.com/user-attachments/assets/af8af7fa-98e4-48bc-a9e3-eb8af9cd7348" autoplay></td>
 </p>
 </div>
 
-<!-- ## :loudspeaker: News
 
-- **[2024/09/xx]** We released our paper on arXiv. -->
+
+
+
+## :loudspeaker: News
+
+- **[2024/09/16]** We released our paper on [arXiv](https://arxiv.org/abs/2409.09016).
 
 ## :pushpin: TODO list
 
@@ -122,4 +126,17 @@ Generated videos conditioned on the same initial frame and differenct language i
 <img src="assets/gen_diff_condition.png" width="1000px" >
 </p>
 </div> -->
+
+## Citation
+
+If you find the project helpful for your research, please consider citing our paper:
+
+```bibtex
+@article{bu2024clover,
+  title={Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation},
+  author={Bu, Qingwen and Zeng, Jia and Chen, Li and Yang, Yanchao and Zhou, Guyue and Yan, Junchi and Luo, Ping and Cui, Heming and Ma, Yi and Li, Hongyang},
+  journal={arXiv preprint arXiv:2409.09016},
+  year={2024}
+}
+```
 
