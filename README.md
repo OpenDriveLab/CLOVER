@@ -86,7 +86,7 @@ cd $CALVIN_ROOT
 sh install.sh
 ```
 
-## Training <a name="Training"></a>
+## Training: Visual Planner <a name="Training"></a>
 
 - ### Requirement
 
@@ -121,7 +121,7 @@ accelerate launch --config_file accelerate_cfg.yaml train.py \
 
 - ### Preparation
 
-    Set you CALVIN and checkpoint path at *FeedbackPolicy/eval_calvin.sh*
+    Set your CALVIN and checkpoint path at *FeedbackPolicy/eval_calvin.sh*
 
 - ### Initiate evaluation on CALVIN simply with
 
