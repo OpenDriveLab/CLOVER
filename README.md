@@ -50,7 +50,7 @@ Full code and checkpoints release is coming soon. Please stay tuned.🦾
 
 - [x] Training script for visual planner
 - [ ] Checkpoints release (*Scheduled Release Date*: **Mid-October, 2024**)
-- [ ] Evaluation codes on CALVIN (*Scheduled Release Date*: **Mid-October, 2024**)
+- [x] Evaluation codes on CALVIN (*Scheduled Release Date*: **Mid-October, 2024**)
 - [ ] Policy training codes on CALVIN (*Estimated Release Period*: **November, 2024**)
 
 
@@ -117,15 +117,18 @@ accelerate launch --config_file accelerate_cfg.yaml train.py \
 
 ## Evaluation <a name="Evaluation"></a>
 
-  TODO
-<!-- ## :video_game: Getting Started
+- ### Preparation
 
-Generated videos conditioned on the same initial frame and differenct language instruction:
-<div id="top" align="center">
-<p align="center">
-<img src="assets/gen_diff_condition.png" width="1000px" >
-</p>
-</div> -->
+    Set you CALVIN and checkpoint path at *FeedbackPolicy/eval_calvin.sh*
+
+- ### Initiate evaluation on CALVIN simply with
+
+```bash
+cd ./FeedbackPolicy
+bash eval_calvin.sh
+```
+    
+
 
 ## Citation
 
