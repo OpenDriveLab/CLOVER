@@ -1,5 +1,7 @@
-<h1 align="center"> :four_leaf_clover: CLOVER: Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation </h1> 
+<h1 align="left"> :four_leaf_clover: CLOVER </h1> 
 
+The official implementation of our **NeurIPS 2024** paper: \
+**Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation**
 <div id="top" align="center">
 <p align="center">
 <img src="assets/clover_teaser.png" width="1000px" >
@@ -49,13 +51,13 @@ Full code and checkpoints release is coming soon. Please stay tuned.🦾
 ## :pushpin: TODO list
 
 - [x] Training script for visual planner
-- [ ] Checkpoints release (*Scheduled Release Date*: **Mid-October, 2024**)
+- [x] Checkpoints release (*Scheduled Release Date*: **Mid-October, 2024**)
 - [x] Evaluation codes on CALVIN (*Scheduled Release Date*: **Mid-October, 2024**)
 - [ ] Policy training codes on CALVIN (*Estimated Release Period*: **November, 2024**)
 
 
 
-## Getting started <a name="installation"></a>
+## :video_game: Getting started <a name="installation"></a>
 
 Our training are conducted with **PyTorch 1.13.1**, **CUDA 11.7**, **Ubuntu 22.04**, and **NVIDIA Tesla A100 (80 GB)**. The closed-loop evaluation on CALVIN is run on a system with **NVIDIA RTX 3090**.
 
@@ -85,6 +87,10 @@ export CALVIN_ROOT=$(pwd)/calvin
 cd $CALVIN_ROOT
 sh install.sh
 ```
+
+## :cd: Checkpoints
+
+We release model weights of our **Visual Planner** and **Feedback-driven Policy** at [HuggingFace](https://huggingface.co/qwbu/CLOVER).
 
 ## Training: Visual Planner <a name="Training"></a>
 
@@ -132,7 +138,7 @@ bash eval_calvin.sh
     
 
 
-## Citation
+## :pencil: Citation
 
 If you find the project helpful for your research, please consider citing our paper:
 
