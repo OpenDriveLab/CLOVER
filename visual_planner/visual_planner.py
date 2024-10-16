@@ -1,4 +1,4 @@
-from diffusion_model.unet import UNetModel
+from .diffusion_model.unet import UNetModel
 from torch import nn
 import torch
 from einops import repeat, rearrange

@@ -31,7 +31,7 @@ import numpy as np
 import random
 
 from diffusers.models import AutoencoderKL
-from raft_utils.utils import flow_warp, robust_l1
+from .raft_utils.utils import flow_warp, robust_l1
 
 __version__ = "0.0"
 
@@ -386,9 +386,10 @@ class GoalGaussianDiffusion(nn.Module):
 
         x_start = None
 
-        for t in tqdm(reversed(range(0, self.num_timesteps)), desc = 'sampling loop time step', total = self.num_timesteps):
+        # for t in tqdm(reversed(range(0, self.num_timesteps)), desc = 'sampling loop time step', total = self.num_timesteps):
             # self_cond = x_start if self.self_condition else None
 
+        for i in reversed(range(0, self.num_timesteps)):
             img, x_start = self.p_sample(img, t, x_cond, task_embed, guidance_weight=guidance_weight, negtive_prompt_cfg=negtive_prompt_cfg)
             imgs.append(img)
 
@@ -413,7 +414,8 @@ class GoalGaussianDiffusion(nn.Module):
 
         x_start = None
 
-        for time, time_next in tqdm(time_pairs, desc = 'sampling loop time step'):
+        # for time, time_next in tqdm(time_pairs, desc = 'sampling loop time step'):
+        for time, time_next in time_pairs:
             time_cond = torch.full((batch,), time, device = device, dtype = torch.long)
             # self_cond = x_start if self.self_condition else None
             pred_noise, x_start, *_ = self.model_predictions(img, time_cond, x_cond, task_embed, state=state, clip_x_start = False, \
