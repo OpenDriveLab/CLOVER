@@ -71,8 +71,10 @@ conda activate clover
 2. Install dependencies.
 
 ```bash
+cd visual_planner
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
-pip install -r requirements.txt
+pip install git+https://github.com/hassony2/torch_videovision
+pip install -e .
 ```
 
 3. Installation of CALVIN simulator.
@@ -142,4 +144,8 @@ If you find the project helpful for your research, please consider citing our pa
   year={2024}
 }
 ```
+
+## Acknowledgements
+
+We thank [AVDC](https://github.com/flow-diffusion/AVDC) and [RoboFlamingo](https://github.com/RoboFlamingo/RoboFlamingo) for their open-sourced work!
 
