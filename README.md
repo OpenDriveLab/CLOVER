@@ -127,7 +127,8 @@ accelerate launch --config_file accelerate_cfg.yaml train.py \
 
 - ### Preparation
 
-    Set your CALVIN and checkpoint path at *FeedbackPolicy/eval_calvin.sh*
+    1. Set your CALVIN and checkpoint path at *FeedbackPolicy/eval_calvin.sh*
+    2. We train our policy with input size of 192*192, please modify the config file correspondingly in [VC-1 Config](https://github.com/facebookresearch/eai-vc/blob/76fe35e87b1937168f1ec4b236e863451883eaf3/vc_models/src/vc_models/conf/model/vc1_vitb.yaml#L7).
 
 - ### Initiate evaluation on CALVIN simply with
 
