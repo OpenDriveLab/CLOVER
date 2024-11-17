@@ -4,7 +4,7 @@ The official implementation of our **NeurIPS 2024** paper: \
 **Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation**
 <div id="top" align="center">
 <p align="center">
-<img src="assets/clover_teaser.png" width="1000px" >
+<img src="assets/CLOVER_Poster-1.png" width="1000px" >
 </p>
 </div>
 
@@ -22,7 +22,7 @@ Full code and checkpoints release is coming soon. Please stay tuned.🦾
 
 <div id="top" align="center">
 <p align="center">
-<img src="assets/closed-loop.jpg" width="800px" >
+<img src="assets/clover_teaser.png" width="800px" >
 </p>
 </div>
 
