@@ -4,13 +4,13 @@ The official implementation of our **NeurIPS 2024** paper: \
 **Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation**
 <div id="top" align="center">
 <p align="center">
-<img src="assets/CLOVER_Poster-1.png" width="1000px" >
+<img src="assets/clover_teaser.png" width="1000px" >
 </p>
 </div>
 
 > [Qingwen Bu](https://scholar.google.com/citations?user=-JCRysgAAAAJ&hl=zh-CN&oi=ao), [Jia Zeng](https://scholar.google.com/citations?hl=zh-CN&user=kYrUfMoAAAAJ), [Li Chen](https://scholar.google.com/citations?user=ulZxvY0AAAAJ&hl=zh-CN), Yanchao Yang, Guyue Zhou, Junchi Yan, Ping Luo, Heming Cui, Yi Ma and Hongyang Li
 
-> 📜 Preprint: <a href="https://arxiv.org/abs/2409.09016"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+> 📜 Preprint: <a href="https://arxiv.org/abs/2409.09016"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a> :pushpin: Poster: <a href="https://docs.google.com/presentation/d/1C0YEx6KPV1s0paW6XMeL7oANujvsLHsyVko-lEBP9c0/edit?usp=sharing"><img src="https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff"></a>
 
 > :mailbox_with_mail: If you have any questions, please feel free to contact: *Qingwen Bu* ( qwbu01@sjtu.edu.cn )
 
@@ -22,21 +22,21 @@ Full code and checkpoints release is coming soon. Please stay tuned.🦾
 
 <div id="top" align="center">
 <p align="center">
-<img src="assets/clover_teaser.png" width="800px" >
+<img src="assets/closed-loop.jpg" width="900px" >
 </p>
 </div>
 
 * Owing to the closed-loop attribute, ​**CLOVER** is robust to visual distraction and object variation:
 <div id="top" align="center">
 <p align="center">
-<img src="assets/vis_robustness.jpg" width="800px" >
+<img src="assets/vis_robustness.jpg" width="900px" >
 </p>
 </div>
 
 * This closed-loop mechanism enables achieving the desired states accurately and reliably, thereby facilitating the execution of long-term tasks:
 <div id="top" align="center">
 <p align="center">
-<td><video src="https://github.com/user-attachments/assets/af8af7fa-98e4-48bc-a9e3-eb8af9cd7348" autoplay></td>
+<td><video src="https://github.com/user-attachments/assets/af8af7fa-98e4-48bc-a9e3-eb8af9cd7348" autoplay width="800px"></td>
 </p>
 </div>
 
