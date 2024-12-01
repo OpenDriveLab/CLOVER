@@ -1,5 +1,4 @@
 #!/bin/bash
-export LD_LIBRARY_PATH=/home/pai/envs/openvla/lib/python3.10/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH
 # dataset path
 calvin_dataset_path='path_to_your/calvin/dataset/task_ABC_D'
 
