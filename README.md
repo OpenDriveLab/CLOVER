@@ -47,13 +47,14 @@ Full code and checkpoints release is coming soon. Please stay tuned.🦾
 ## :loudspeaker: News
 
 - **[2024/09/16]** We released our paper on [arXiv](https://arxiv.org/abs/2409.09016).
+- **[2024/12/01]** We have open sourced the entire codebase and will keep it updated, please give it a try!
 
 ## :pushpin: TODO list
 
 - [x] Training script for visual planner
 - [x] Checkpoints release (*Scheduled Release Date*: **Mid-October, 2024**)
 - [x] Evaluation codes on CALVIN (*Scheduled Release Date*: **Mid-October, 2024**)
-- [ ] Policy training codes on CALVIN (*Estimated Release Period*: **November, 2024**)
+- [x] Policy training codes on CALVIN (*Estimated Release Period*: **November, 2024**)
 
 
 
@@ -73,7 +74,6 @@ conda activate clover
 2. Install dependencies.
 
 ```bash
-cd visual_planner
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install git+https://github.com/hassony2/torch_videovision
 pip install -e .
@@ -92,7 +92,7 @@ sh install.sh
 
 We release model weights of our **Visual Planner** and **Feedback-driven Policy** at [HuggingFace](https://huggingface.co/qwbu/CLOVER).
 
-## Training: Visual Planner <a name="Training"></a>
+## Training of Visual Planner <a name="TrainingVP"></a>
 
 - ### Requirement
 
@@ -120,6 +120,19 @@ accelerate launch --config_file accelerate_cfg.yaml train.py \
     --with_depth \
     --flow_reg \
     --results_folder *path_to_save_your_ckpts*
+```
+
+## Training of Feedback Policy <a name="TrainingFP"></a>
+
+- ### Preparation
+
+  * We only support VC-1 as visual encoder for now, please setup environments and download pre-trained checkpoints according to [eai-vc](https://github.com/facebookresearch/eai-vc)
+  * Set your **calvin_dataset_path** in ```FeedbackPolicy/train_calvin.sh```
+
+- ### Initiate training of the Feedback-driven Policy (Inverse Dynamics Model) on CALVIN
+```
+cd ./FeedbackPolicy
+bash train_calvin.sh
 ```
 
 
