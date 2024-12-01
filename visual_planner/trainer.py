@@ -31,7 +31,7 @@ import numpy as np
 import random
 
 from diffusers.models import AutoencoderKL
-from .raft_utils.utils import flow_warp, robust_l1
+from raft_utils.utils import flow_warp, robust_l1
 
 __version__ = "0.0"
 

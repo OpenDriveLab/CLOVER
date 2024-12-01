@@ -9,8 +9,7 @@ import torch.nn.functional as F
 from einops import rearrange
 from einops import repeat
 
-from .transformer_utils import Block, PatchEmbed, get_2D_position_embeddings,\ 
-                               RMSNorm, SwishGLU
+from .transformer_utils import Block, PatchEmbed, get_2D_position_embeddings, RMSNorm, SwishGLU
 
 
         

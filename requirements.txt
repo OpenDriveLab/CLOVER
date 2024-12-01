@@ -14,5 +14,6 @@ imageio[ffmpeg]
 wandb==0.16.6
 opencv-python==4.9.0.80
 pytorch-lightning==1.8.6
+peft==0.6.2
 rotary-embedding-torch==0.5.3
-
+git+https://github.com/hassony2/torch_videovision
