@@ -124,7 +124,7 @@ def train_one_epoch_calvin(
         # communitive loss over time steps
         for i in range(velo_label.shape[1] - 1):
             loss_calvin_num += torch.nn.functional.huber_loss(num_actions[:, i], velo_label[:, i]) / (velo_label.shape[1] - 1)
-            loss_calvin_bin += torch.nn.functional.binary_cross_entropy(bin_actions[:, i], grip_label[:, i]) / (velo_label.shape[1] - 1)
+            loss_calvin_bin += torch.nn.functional.binary_cross_entropy_with_logits(bin_actions[:, i], grip_label[:, i]) / (velo_label.shape[1] - 1)
 
 
         loss_calvin = loss_calvin_num + loss_calvin_bin * 0.1 
