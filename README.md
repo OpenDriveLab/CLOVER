@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> 🌟 Stay up to date at [opendrivelab.com](https://opendrivelab.com/#news)!
+
 <h1 align="left"> :four_leaf_clover: CLOVER </h1> 
 
 The official implementation of our **NeurIPS 2024** paper: \
