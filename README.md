@@ -17,7 +17,7 @@ The official implementation of our **NeurIPS 2024** paper: \
 
 > :mailbox_with_mail: If you have any questions, please feel free to contact: *Qingwen Bu* ( qwbu01@sjtu.edu.cn )
 
-Full code and checkpoints release is coming soon. Please stay tuned.🦾
+
 
 ## :fire: Highlight
 
